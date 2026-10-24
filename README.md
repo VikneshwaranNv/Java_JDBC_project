@@ -7,13 +7,21 @@
 ### Project Structure
 
 ```text
-├── codes/              # Java source files (KECGui.java, Main.java, EvaluationEngine.java, etc.)
-├── video/              # Project demonstration video (Video-JDBC.mp4)
-├── assets/             # Branding assets (KEC official logo)
-├── lib/                # Dependency JARs (MySQL Connector, Apache PDFBox, jBCrypt)
-├── migrations/         # Database SQL schema and migrations
-└── README.md           # Documentation
+├── codes/                   # Java source files (KECGui.java, Main.java, EvaluationEngine.java, etc.)
+├── video/                   # Project demonstration video (Video-JDBC.mp4)
+├── assets/                  # Branding assets (KEC official logo)
+├── lib/                     # Dependency JARs (MySQL Connector, Apache PDFBox, jBCrypt)
+├── migrations/              # Database SQL schema and migrations
+├── Java_JDBC_PDF_Manual.pdf # Official Project Report & Lab Manual
+└── README.md                # Documentation
 ```
+
+---
+
+### Project Documentation & Manual
+
+The official project report and laboratory manual submitted for **24ITT32 - Programming in Java** by **Vikneshwaran N (25ITR173)** is included:
+* 📄 **[Download / View Project Manual (Java_JDBC_PDF_Manual.pdf)](Java_JDBC_PDF_Manual.pdf)**
 
 ---
 
