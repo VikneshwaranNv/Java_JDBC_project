@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "build",
+    "java.project.referencedLibraries": [
+        "lib/*.jar"
+    ],
+    "java.project.exclusions": [
+        "**/backup/**",
+        "**/uploads/**",
+        "**/.git/**"
+    ]
+}
+

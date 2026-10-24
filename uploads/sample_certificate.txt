@@ -1,0 +1,7 @@
+Sample Certificate for KEC ACADEMIX SAP Verification.
+Student: 24CSE001
+Activity: [TEST] Paper Presentation on Cloud Security
+Date: 2026-10-18
+Organizer: KEC ISTE Chapter
+Points Claimed: 20
+
