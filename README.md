@@ -8,11 +8,18 @@
 
 ```text
 ├── codes/              # Java source files (KECGui.java, Main.java, EvaluationEngine.java, etc.)
-├── assets/             # Branding assets (KEC official logo)
+├── assets/             # Branding assets (KEC official logo) & Demo Video (Video-JDBC.mp4)
 ├── lib/                # Dependency JARs (MySQL Connector, Apache PDFBox, jBCrypt)
 ├── migrations/         # Database SQL schema and migrations
 └── README.md           # Documentation
 ```
+
+---
+
+### Project Video Demonstration
+
+A walkthrough video demonstrating the application features, continuous evaluation workflow, and JDBC database operations is available here:
+* 🎬 **[Watch / Download Demo Video (Video-JDBC.mp4)](assets/Video-JDBC.mp4)**
 
 ---
 
