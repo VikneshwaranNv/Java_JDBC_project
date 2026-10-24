@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "src"
+        "codes"
     ],
     "java.project.outputPath": "build",
     "java.project.referencedLibraries": [
@@ -12,4 +12,3 @@
         "**/.git/**"
     ]
 }
-

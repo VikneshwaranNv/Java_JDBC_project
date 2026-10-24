@@ -1,0 +1,8 @@
+# Compiled class files
+build/
+*.class
+scratch/*.class
+
+# OS / Editor temporary files
+.DS_Store
+Thumbs.db
