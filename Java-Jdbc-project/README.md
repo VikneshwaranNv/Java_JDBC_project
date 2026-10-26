@@ -46,3 +46,4 @@ Open a terminal in this directory (`Java-Jdbc-project`):
 * **Administrator:** `test_admin_sys` / `AdminSecret2026!`
 * **Faculty / Staff:** `test_staff_kavitha` / `StaffSecret2026!`
 * **Student:** `test_stud_arun` / `ValidStudentPass123!` (Roll: `24CSE001`)
+

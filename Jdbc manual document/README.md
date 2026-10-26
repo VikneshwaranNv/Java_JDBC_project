@@ -29,3 +29,4 @@ This directory contains the official project manual and laboratory documentation
 4. **Security & Authentication:** Salted BCrypt password hashing and role-based permissions (Admin, Faculty, Student).
 5. **R2024 Evaluation Engine:** Course evaluation formulas, continuous internal assessments, ESE grading, SGPA calculation, and attendance rules.
 6. **PDF Generation:** Dynamic institutional marksheets generated via Apache PDFBox with college crest and tabular layout.
+
