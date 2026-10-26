@@ -8,7 +8,7 @@
 
 ```text
 ├── codes/                   # Java source files (KECGui.java, Main.java, EvaluationEngine.java, etc.)
-├── video/                   # Project demonstration video (Video-JDBC.mp4)
+├── video/                   # Project demonstration video (video-jdbc_fE9iydgH.mp4)
 ├── assets/                  # Branding assets (KEC official logo)
 ├── lib/                     # Dependency JARs (MySQL Connector, Apache PDFBox, jBCrypt)
 ├── migrations/              # Database SQL schema and migrations
@@ -29,7 +29,7 @@ The official project report and laboratory manual submitted for **24ITT32 - Prog
 
 A walkthrough video demonstrating the application features, continuous evaluation workflow, and JDBC database operations is available in the dedicated [`video/`](video/) folder:
 
-* ⬇️ **[Direct Download Video (Video-JDBC.mp4)](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/video/Video-JDBC.mp4)**
+* ⬇️ **[Direct Download Video (video-jdbc_fE9iydgH.mp4)](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/video/video-jdbc_fE9iydgH.mp4)**
 * 📁 **[Browse Video Folder](video/)**
 
 ---
