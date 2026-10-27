@@ -126,6 +126,67 @@ flowchart TD
 
 ---
 
+## 🗄️ Database Schema & Live Data Verification
+
+The backend relational schema is built on **MySQL** and persisted using direct **JDBC** transactions. Below are the verified table definitions and live records from the database instance (`kec_academic`):
+
+### 1. Course Table Schema (`DESCRIBE courses;`)
+
+| Field | Type | Null | Key | Default | Extra |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| `course_id` | `int` | NO | **PRI** | `NULL` | `auto_increment` |
+| `course_code` | `varchar(20)` | NO | **UNI** | `NULL` | |
+| `course_name` | `varchar(100)` | NO | | `NULL` | |
+| `credits` | `int` | NO | | `NULL` | |
+| `course_type` | `enum('THEORY','PRACTICAL','EMBEDDED')` | NO | | `NULL` | |
+
+---
+
+### 2. Live Database Records (`mysql> CLI Verification`)
+
+#### 🎓 Students Table (`SELECT * FROM students;`)
+```sql
++------------+---------+--------------------+------------------------+----------+
+| student_id | roll_no | student_name       | department             | semester |
++------------+---------+--------------------+------------------------+----------+
+|          1 | 24CSE001| Arun Kumar         | CSE                    |        4 |
+|          2 | 24CSE002| Priya Devi         | CSE                    |        4 |
+|          3 | 24IT001 | Karthik Raj        | IT                     |        4 |
+|          4 | 25ITR173| VIKNESHWARAN N     | IT                     |        4 |
+|          6 | 25ITR161| Thina Rajkumar R   | Information Technology |        4 |
++------------+---------+--------------------+------------------------+----------+
+5 rows in set (0.00 sec)
+```
+
+#### 📚 Course Catalog (`SELECT * FROM courses;`)
+```sql
++-----------+-------------+-----------------------------+---------+-------------+
+| course_id | course_code | course_name                 | credits | course_type |
++-----------+-------------+-----------------------------+---------+-------------+
+|         1 | CS2401      | Java Programming            |       4 | THEORY      |
+|         2 | CS2402      | Database Management Systems |       3 | THEORY      |
+|        15 | IT3448      | DBMS                        |       4 | THEORY      |
++-----------+-------------+-----------------------------+---------+-------------+
+3 rows in set (0.00 sec)
+```
+
+#### 📋 Student Enrollments (`SELECT * FROM enrollments;`)
+```sql
++---------------+------------+-----------+---------------+----------+
+| enrollment_id | student_id | course_id | academic_year | semester |
++---------------+------------+-----------+---------------+----------+
+|             1 |          1 |         1 | 2026-2027     |        4 |
+|             2 |          1 |         2 | 2026-2027     |        4 |
+|             3 |          2 |         1 | 2026-2027     |        4 |
+|             4 |          2 |         2 | 2026-2027     |        4 |
+|             5 |          3 |         1 | 2026-2027     |        4 |
+|            18 |          4 |        15 | 2026-2027     |        3 |
++---------------+------------+-----------+---------------+----------+
+6 rows in set (0.00 sec)
+```
+
+---
+
 ## 🚀 Quick Start (Compile & Run)
 
 Navigate to the [`Java-Jdbc-project/`](Java-Jdbc-project/) folder:
