@@ -18,14 +18,17 @@
 
 ---
 
-### 📂 Quick Access: Project Documents & Walkthrough Video
+## ⚡ Direct Downloads (One-Click Video & Document Access)
 
-Access the official laboratory record and project demonstration video directly:
+Click any of the cards or badges below to directly download the demonstration video or comprehensive evaluation documents:
 
-| Asset | Direct Actions (One-Click) | Repository Folder |
-| :--- | :--- | :--- |
-| **📄 Project Manual (PDF)** | [⬇️ **Download PDF Manual**](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Jdbc%20manual%20document/Java_JDBC_PDF_Manual.pdf) &nbsp;•&nbsp; [👁️ View in Repository](https://github.com/VikneshwaranNv/Java_JDBC_project/tree/main/Jdbc%20manual%20document) | [`Jdbc manual document/`](Jdbc%20manual%20document/) |
-| **🎬 Demonstration Video (MP4)** | [▶️ **Watch / Stream Video Directly**](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Java-jdbc%20explantion%20video/video-jdbc_fE9iydgH.mp4) &nbsp;•&nbsp; [⬇️ **Download Video**](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Java-jdbc%20explantion%20video/video-jdbc_fE9iydgH.mp4) | [`Java-jdbc explantion video/`](Java-jdbc%20explantion%20video/) |
+| 🎬 Demonstration Video | 📄 Project Report (PDF) | 📝 Project Report (Word DOCX) |
+| :---: | :---: | :---: |
+| [![Download Video](https://img.shields.io/badge/▶_CLICK_TO_DOWNLOAD-DEMO_VIDEO_(25.7_MB)-red?style=for-the-badge)](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Java-jdbc%20explantion%20video/video-jdbc_fE9iydgH.mp4) | [![Download Report PDF](https://img.shields.io/badge/⬇_CLICK_TO_DOWNLOAD-PROJECT_REPORT_(PDF)-red?style=for-the-badge)](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Jdbc%20manual%20document/Java_JDBC_PDF_Manual.pdf) | [![Download Report DOCX](https://img.shields.io/badge/⬇_CLICK_TO_DOWNLOAD-DOCUMENT_(DOCX)-0078d4?style=for-the-badge)](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Jdbc%20manual%20document/Final_Java_JDBC_Project_Report_Vikneshwaran_25ITR173.docx) |
+| `video-jdbc_fE9iydgH.mp4`<br>*(Full walkthrough of CLI, GUI, and Database)* | `Java_JDBC_PDF_Manual.pdf`<br>*(Complete final documentation & calculation breakdown)* | `Final_Java_JDBC_Project_Report_Vikneshwaran_25ITR173.docx`<br>*(Editable Microsoft Word version)* |
+| [🔗 Direct Raw Link](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Java-jdbc%20explantion%20video/video-jdbc_fE9iydgH.mp4) &nbsp;•&nbsp; [👁️ View Online](https://github.com/VikneshwaranNv/Java_JDBC_project/blob/main/Java-jdbc%20explantion%20video/video-jdbc_fE9iydgH.mp4) | [🔗 Direct Raw Link](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Jdbc%20manual%20document/Java_JDBC_PDF_Manual.pdf) &nbsp;•&nbsp; [👁️ View Online](https://github.com/VikneshwaranNv/Java_JDBC_project/blob/main/Jdbc%20manual%20document/Java_JDBC_PDF_Manual.pdf) | [🔗 Direct Raw Link](https://github.com/VikneshwaranNv/Java_JDBC_project/raw/main/Jdbc%20manual%20document/Final_Java_JDBC_Project_Report_Vikneshwaran_25ITR173.docx) |
+
+> **Note:** Clicking the red **"CLICK TO DOWNLOAD"** button above triggers an immediate browser download of the high-definition MP4 video demonstration directly from GitHub.
 
 ---
 
@@ -38,7 +41,7 @@ Access the official laboratory record and project demonstration video directly:
 │   ├── assets/                    # Official KEC crest branding
 │   ├── migrations/                # Database SQL schemas
 │   └── README.md                  # Local build & execution guide
-├── Jdbc manual document/          # Project manual & lab record (Java_JDBC_PDF_Manual.pdf)
+├── Jdbc manual document/          # Project manual & lab reports (PDF & Word DOCX)
 ├── Java-jdbc explantion video/    # Video demonstration recording (video-jdbc_fE9iydgH.mp4)
 ├── .gitignore
 └── README.md                      # Top-level documentation
